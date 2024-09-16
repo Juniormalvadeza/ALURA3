@@ -1,0 +1,65 @@
+body {
+    color: rgb(255, 248, 248);
+    background: rgb(27, 1, 1);
+    margin: 0px;
+     
+        font-family: "New Amsterdam", sans-serif;
+        font-weight: 100px;
+        font-style: normal;
+    
+      
+      
+}
+
+.principal { 
+    background: rgb(207, 51, 51);
+    padding-bottom: 60px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.maxmathias iframe {
+    opacity: 0,5;
+    border: 6px solid rgb(145, 30, 15);
+}
+
+header{
+    border-bottom: solid 2px white;
+    padding: 20px;
+    font-size: 32px;
+}
+
+.texto{
+    margin-right: 20%;
+    align-items: left;
+    font-size: 30px;
+}
+
+img{ 
+    height:200px;
+}
+
+.legais
+{
+    display:flex;
+    overflow-x: auto;
+    gap: 15px;
+    
+}
+
+.categorias
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.legais img {
+    opacity: 0,5;
+    height: 200px;
+}
+
+.legais img:hover {
+ opacity: 1.0;
+ border: 4px solid rgb(180, 36, 17);
+}
